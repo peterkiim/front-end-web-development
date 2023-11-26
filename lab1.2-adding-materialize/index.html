@@ -5,48 +5,9 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <style>
-        body {
-            background-image: url("BG1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        .section-1 {
-            margin: 80px;
-        }
-        .section-2 {
-            background-color: #ffffff35;
-            padding: 60px;
-        }
-        .section-3 {
-            margin-top: 150px;
-            background-color: #ffffff35;
-            padding: 60px;
-        }
-        .section-4 {
-            margin-top: 150px;
-            background-color: #ffffff35;
-            padding: 60px;
-        }
-        .section-5 {
-            margin-top: 150px;
-            background-color: #ffffff35;
-            padding: 60px;
-        }
-        .section-6 {
-            margin-top: 150px;
-            background-color: #ffffff35;
-            padding: 20px;
-        }
-        p {
-            font-size: 20px;
-        }
-        .modal {
-            padding: 30px;
-        }
-    </style>
+
     <title>Porsche</title>
 </head>
 
@@ -67,11 +28,45 @@
             <p class="white-text" style="font-weight: 200;">
                 Welcome to Porsche! Here you will find information on all Porsche vehicles, services, dealers in your area and
                 everything about the Porsche brand.
+                <br><br><br>
             </p>
         </div>
 
+<div class="slideshow-container">
+    <div class="slides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="pictures/porsche1.jpeg" style="width:100%">
+    </div>
+  
+    <div class="slides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="pictures/porsche2.jpeg" style="width:100%">
+    </div>
+  
+    <div class="slides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="pictures/porsche3.jpeg" style="width:100%">
+    </div>
+
+    <div class="slides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="pictures/porsche4.jpeg" style="width:100%">
+      </div>
+
+      <div class="slides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="pictures/porsche5.jpeg" style="width:100%">
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br><br><br>
+  </div>
+        
         <div class="section-2 row">
-            <img src="porsche911.jpeg" width="200px" class="col s3" />
+            <img src="pictures/porsche911.jpeg" width="200px" class="col s3" />
             <div class="offset-s1 col s7">
                 <h1 class="red-text darken-1" style="font-weight: 600;">PORSCHE 911</h1>
                 <p class="white-text">
@@ -79,12 +74,12 @@
                     has evolved over 60 years and yet has kept the essence of its original design quite like the 911
                     has, with its perfect proportions, flowing curves and sporty attitude.
                 </p>
-                <a href="#" class="btn red darken-4 waves-effect waves-light">BUILD YOUR OWN</a>
+                <a href="https://configurator.porsche.com/en-US/model-start/911" class="btn red darken-4 waves-effect waves-light">BUILD YOUR OWN</a>
             </div>
         </div>
 
         <div class="section-3 row">
-            <img src="taycan.jpeg" alt="" width="200px" class="col s3" />
+            <img src="pictures/taycan.jpeg" alt="" width="200px" class="col s3" />
             <div class="offset-s1 col s7">
                 <h1 class="red-text darken-1" style="font-weight: 600;">PORSCHE TAYCAN</h1>
                 <p class="white-text">
@@ -92,12 +87,12 @@
                     vision towards the future with the Taycan — a striking exhibition of an all-electric sports sedan. Originally imagined
                     as the Porsche Mission E concept, the Taycan pushes the limits of electric driving possibilities. 
                 </p>
-                <a href="#" class="btn red darken-4 waves-effect waves-light">BUILD YOUR OWN</a>
+                <a href="https://configurator.porsche.com/en-US/model-start/taycan" class="btn red darken-4 waves-effect waves-light">BUILD YOUR OWN</a>
             </div>
         </div>
 
         <div class="section-4 row">
-            <img src="porsche963.jpeg" alt="" width="200px" class="col s3" />
+            <img src="pictures/porsche963.jpeg" alt="" width="200px" class="col s3" />
             <div class="offset-s1 col s7">
                 <h1 class="red-text darken-1" style="font-weight: 600">PORSCHE 963</h1>
                 <p class="white-text">
@@ -105,19 +100,19 @@
                     design of the 963 race car is based on Porsche classics of the recent past, its interior values set new standards. These
                     include the optimized chassis and a 4.6-liter V8 engine with twin turbochargers.
                 </p>
-                <a href="#" class="btn red darken-4 waves-effect waves-light">BUILD YOUR OWN</a>
+                <a href="https://motorsports.porsche.com/international/en/category/cars/lmdh-prototype-963" class="btn red darken-4 waves-effect waves-light">EXPLORE</a>
             </div>
         </div>
 
         <div class="section-5 row">
-            <img src="porsche918.webp" alt="" width="200px" class="col s3" />
+            <img src="pictures/porsche918.webp" alt="" width="200px" class="col s3" />
             <div class="offset-s1 col s7">
                 <h1 class="red-text darken-1" style="font-weight: 600">PORSCHE 918 SPYDER</h1>
                 <p class="white-text">
                     With an angular silhouette that features a low front-end and muscular rear shoulders, the Porsche 918 Spyder appears to
                     be in motion even at a standstill. The 918 Spyder does not feature outlandish sharp styling that many have come to expect from supercars, but its classy curves make it arguably more beautiful.
                 </p>
-                <a href="#" class="btn red darken-4 waves-effect waves-light">BUILD YOUR OWN</a>
+                <a href="https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder" class="btn red darken-4 waves-effect waves-light">EXPLORE</a>
             </div>
         </div>
     </main>
@@ -127,9 +122,8 @@
             <h3 class="white-text" style="font-weight: 400">Sign up for pictures, updates, and more!</h2>
                 <br>
             <a href="#email-signup" class="btn red darken-4 modal-trigger waves-effect waves-light">CLICK HERE</a>
+            <a href="quiz.html" class="btn red darken-4 modal-trigger waves-effect waves-light">TAKE A QUIZ</a>
             <br><br>
-            <img src="instagram-icon.png" alt="" width="50px" />
-            <img src="email-icon.png" alt="" width="50px" />
         </div>
     </footer>
 
@@ -160,7 +154,8 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script>
+    <script src="index.js"></script>
+    <script> 
         M.AutoInit();
     </script>
 </body>

@@ -1,0 +1,30 @@
+body {
+    padding: 100px;
+    background-image: url("BG1.jpg");
+}
+
+.row > * {
+    margin: 10px;
+}
+
+button {
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+#nextButton{
+    
+}
+
+.container {
+    top: 100px;
+    padding: 20px;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
